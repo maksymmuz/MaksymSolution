@@ -1,4 +1,7 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.IO.Compression;
 
 namespace FileSearch
@@ -98,7 +101,6 @@ namespace FileSearch
 				theByte = source.ReadByte();
 			}
 
-			// Видалення компресора.
 			compressor.Close();
 		}
 	}

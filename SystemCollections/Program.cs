@@ -1,6 +1,4 @@
-﻿using System.Collections.Specialized;
-
-namespace SystemCollections
+﻿namespace SystemCollections
 {
 	internal class Program
 	{
@@ -11,23 +9,9 @@ namespace SystemCollections
 			Buyer buyer2 = new() { Name = "buyer2" };
 			Buyer buyer3 = new() { Name = "buyer3" };
 
-			List<string>? buyerCategory1 = new List<string>()
-			{
-				"Technic",
-			};
-
-			List<string>? buyerCategory2 = new List<string>()
-			{
-				"Food",
-				"Books",
-			};
-
-			List<string>? buyerCategory3 = new List<string>()
-			{
-				"Food",
-				"Technic",
-				"Books",
-			};
+			List<string>? buyerCategory1 = new() { "Technic", };
+			List<string>? buyerCategory2 = new() { "Food", "Books", };
+			List<string>? buyerCategory3 = new() { "Food", "Technic", "Books", };
 
 			var buyers = new Dictionary<Buyer, List<string>>
 			{

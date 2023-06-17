@@ -8,6 +8,6 @@ namespace SystemCollections
 {
 	internal class Buyer
 	{
-        public string Name { get; set; }
-    }
+		public string? Name { get; set; }
+	}
 }
