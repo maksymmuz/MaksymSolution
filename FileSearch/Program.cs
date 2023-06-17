@@ -6,6 +6,13 @@ using System.IO.Compression;
 
 namespace FileSearch
 {
+	/**
+	 * Завдання 3
+	 * Напишіть програму для пошуку заданого файлу на диску. 
+	 * Додайте код, який використовує клас FileStream і дозволяє переглядати файл у текстовому вікні. 
+	 * Насамкінець додайте можливість стиснення знайденого файлу.
+	*/
+
 	internal class Program
 	{
 		static void Main(string[] args)
@@ -23,7 +30,7 @@ namespace FileSearch
 				if (!string.IsNullOrEmpty(filePath))
 				{
 					Console.WriteLine("File found: " + filePath);
-					ViewFileContents(filePath);
+					ViewFileContent(filePath);
 					ArchiveFile(fileName);
 				}
 				else
@@ -62,7 +69,7 @@ namespace FileSearch
 			return null;
 		}
 
-		static void ViewFileContents(string filePath)
+		static void ViewFileContent(string filePath)
 		{
 			using (var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
 			{
@@ -86,8 +93,8 @@ namespace FileSearch
 		{
 			string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-			string sourceFilePath = Path.Combine(folderPath, fileName);
-			string destinationFilePath = Path.Combine(folderPath, "archive.zip");
+			string sourceFilePath = Path.Combine(folderPath, "ForExperiments", fileName);
+			string destinationFilePath = Path.Combine(folderPath, "ForExperiments", "archive.zip");
 
 			FileStream source = File.OpenRead(sourceFilePath);
 			FileStream destination = File.Create(destinationFilePath);
@@ -101,6 +108,7 @@ namespace FileSearch
 				theByte = source.ReadByte();
 			}
 
+			compressor.Flush();
 			compressor.Close();
 		}
 	}
