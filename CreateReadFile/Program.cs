@@ -1,6 +1,7 @@
 ﻿namespace CreateReadFile
 {
 	/**
+	 * Домашнє завдання 3
 	 * Завдання 2
 	 * Створіть файл, 
 	 * запишіть у нього довільні дані та закрийте файл. 
@@ -15,8 +16,13 @@
 			string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 			string filePath = Path.Combine(folderPath, "ForExperiments", "SomeFile.txt");
 
+			WriteToFile(filePath);
+			ReadFromFile(filePath);
+		}
+
+		static void WriteToFile(string filePath)
+		{
 			StreamWriter? writer = null;
-			StreamReader? reader = null;
 
 			try
 			{
@@ -36,6 +42,11 @@
 			{
 				writer?.Close();
 			}
+		}
+
+		static void ReadFromFile(string filePath)
+		{
+			StreamReader? reader = null;
 
 			try
 			{
