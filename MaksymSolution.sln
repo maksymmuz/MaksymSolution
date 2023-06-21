@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedStorage", "Isolated
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateDirectory", "CreateDirectory\CreateDirectory.csproj", "{C4645B47-401D-436C-A8D1-6BD485947304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateReadFile", "CreateReadFile\CreateReadFile.csproj", "{737368E3-35FB-449A-99A0-86E17404A476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateReadFile", "CreateReadFile\CreateReadFile.csproj", "{737368E3-35FB-449A-99A0-86E17404A476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthsCollection", "MonthsCollection\MonthsCollection.csproj", "{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{737368E3-35FB-449A-99A0-86E17404A476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{737368E3-35FB-449A-99A0-86E17404A476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{737368E3-35FB-449A-99A0-86E17404A476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
