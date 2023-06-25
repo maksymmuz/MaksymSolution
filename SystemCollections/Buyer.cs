@@ -9,5 +9,6 @@ namespace SystemCollections
 	internal class Buyer
 	{
 		public string? Name { get; set; }
+		public int Age { get; set; }
 	}
 }
