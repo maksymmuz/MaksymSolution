@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateDirectory", "CreateDi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateReadFile", "CreateReadFile\CreateReadFile.csproj", "{737368E3-35FB-449A-99A0-86E17404A476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthsCollection", "MonthsCollection\MonthsCollection.csproj", "{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonthsCollection", "MonthsCollection\MonthsCollection.csproj", "{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTree", "FamilyTree\FamilyTree.csproj", "{0817660D-6E74-4E73-8381-A2FCBD37E4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkrEngDictionary", "UkrEngDictionary\UkrEngDictionary.csproj", "{23F07C03-55D1-45FB-A419-8ECA347F8B86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2CB3A3E-6229-473A-8DDD-101B8D893C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0817660D-6E74-4E73-8381-A2FCBD37E4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0817660D-6E74-4E73-8381-A2FCBD37E4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0817660D-6E74-4E73-8381-A2FCBD37E4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0817660D-6E74-4E73-8381-A2FCBD37E4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
