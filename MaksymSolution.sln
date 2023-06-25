@@ -5,8 +5,6 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemCollections", "SystemCollections\SystemCollections.csproj", "{25F4BE4B-F62D-43A8-A1BB-8E2F74994273}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSearch", "FileSearch\FileSearch.csproj", "{0D19DD8D-D36D-47DA-85AF-C5CE59230941}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedStorage", "IsolatedStorage\IsolatedStorage.csproj", "{2F1F4275-3B4E-465B-857A-F2867648D910}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateDirectory", "CreateDirectory\CreateDirectory.csproj", "{C4645B47-401D-436C-A8D1-6BD485947304}"
@@ -17,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonthsCollection", "MonthsC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTree", "FamilyTree\FamilyTree.csproj", "{0817660D-6E74-4E73-8381-A2FCBD37E4CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkrEngDictionary", "UkrEngDictionary\UkrEngDictionary.csproj", "{23F07C03-55D1-45FB-A419-8ECA347F8B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UkrEngDictionary", "UkrEngDictionary\UkrEngDictionary.csproj", "{23F07C03-55D1-45FB-A419-8ECA347F8B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch", "FileSearch\FileSearch.csproj", "{06E02612-F12E-4FF0-AAD3-F14FEA2A7DD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{25F4BE4B-F62D-43A8-A1BB-8E2F74994273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F4BE4B-F62D-43A8-A1BB-8E2F74994273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F4BE4B-F62D-43A8-A1BB-8E2F74994273}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D19DD8D-D36D-47DA-85AF-C5CE59230941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D19DD8D-D36D-47DA-85AF-C5CE59230941}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D19DD8D-D36D-47DA-85AF-C5CE59230941}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D19DD8D-D36D-47DA-85AF-C5CE59230941}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F1F4275-3B4E-465B-857A-F2867648D910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F1F4275-3B4E-465B-857A-F2867648D910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F1F4275-3B4E-465B-857A-F2867648D910}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23F07C03-55D1-45FB-A419-8ECA347F8B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E02612-F12E-4FF0-AAD3-F14FEA2A7DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E02612-F12E-4FF0-AAD3-F14FEA2A7DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E02612-F12E-4FF0-AAD3-F14FEA2A7DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E02612-F12E-4FF0-AAD3-F14FEA2A7DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
