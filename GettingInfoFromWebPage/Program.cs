@@ -12,8 +12,8 @@ string directoryPath = Path.Combine(Environment.GetFolderPath(Environment.Specia
 string filePathSource = Path.Combine(directoryPath, "Source.txt");
 string filePathTarget = Path.Combine(directoryPath, "Target.txt");
 
-string htmlContent = await ToolsForWebPage.GetWebPageSource("http://web.simmons.edu/~grovesd/comm244/notes/week3/html-test-page.html");
-Utilities.WriteToFile(filePathSource, htmlContent);
+string htmlContent = await ToolsForWebPage.GetWebPageSource("http://web.some_site.com");
+InputOutput.WriteToFile(filePathSource, htmlContent);
 
 ToolsForWebPage.GetLinks(filePathSource, filePathTarget);
 ToolsForWebPage.GetPhoneNumbers(filePathSource, filePathTarget);
