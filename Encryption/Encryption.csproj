@@ -8,17 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.48" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\HelpLibrary\HelpLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="HelpLibrary">
-      <HintPath>..\HelpLibrary\bin\Debug\net6.0\HelpLibrary.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
