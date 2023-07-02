@@ -1,7 +1,7 @@
 ﻿using HelpLibrary;
 using System.Text.RegularExpressions;
 
-namespace Decryptor
+namespace Encryption
 {
 	internal class Cryptographer
 	{
@@ -11,7 +11,7 @@ namespace Decryptor
 			{
 				string? fileContent = InputOutput.ReadFromFile(filePath);
 
-				string modifiedContent = Regex.Replace(fileContent, @"([^\W\d_]|[\p{L}0-9_]){1,3}", "ГАВ!1111111");
+				string modifiedContent = Regex.Replace(fileContent, @"([^\W\d_]|[\p{L}0-9_]){1,3}", "ГАВ!");
 
 				InputOutput.WriteToFile(filePath, modifiedContent);
 			}
