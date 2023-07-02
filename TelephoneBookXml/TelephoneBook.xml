@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contacts>
+	<Contact TelephoneNumber="38(011)222-3344">Johnnie Walker</Contact>
+	<Contact TelephoneNumber="38(012)555-6677">Jim Beam</Contact>
+	<Contact TelephoneNumber="38(013)777-8899">Jack Daniel's</Contact>
+</Contacts>
