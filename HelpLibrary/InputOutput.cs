@@ -31,5 +31,18 @@
 				return null;
 			}
 		}
+
+		public static string[]? ReadLinesFromFile(string filePath)
+		{
+			try
+			{
+				return File.ReadAllLines(filePath);
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("Error occurred while reading lines of the file: " + ex.Message);
+				return null;
+			}
+		}
 	}
 }

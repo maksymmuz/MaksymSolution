@@ -28,7 +28,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingInfoFromWebPage", "G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryption", "Encryption\Encryption.csproj", "{B3E81C67-5F33-4DDB-BECD-8F78497FB3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpLibrary", "HelpLibrary\HelpLibrary.csproj", "{4F98957D-900D-4A93-971D-DAF81DB832B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpLibrary", "HelpLibrary\HelpLibrary.csproj", "{4F98957D-900D-4A93-971D-DAF81DB832B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receipt", "Receipt\Receipt.csproj", "{2BA26E4F-D216-4E84-98DE-C81C6862CB15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -284,6 +286,26 @@ Global
 		{4F98957D-900D-4A93-971D-DAF81DB832B8}.Release|x64.Build.0 = Release|Any CPU
 		{4F98957D-900D-4A93-971D-DAF81DB832B8}.Release|x86.ActiveCfg = Release|Any CPU
 		{4F98957D-900D-4A93-971D-DAF81DB832B8}.Release|x86.Build.0 = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|x64.Build.0 = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Debug|x86.Build.0 = Debug|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|ARM.Build.0 = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|ARM64.Build.0 = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|x64.ActiveCfg = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|x64.Build.0 = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BA26E4F-D216-4E84-98DE-C81C6862CB15}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
