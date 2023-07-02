@@ -1,5 +1,4 @@
-﻿using Decryptor;
-using System.Text.RegularExpressions;
+﻿using Encryption;
 
 /**
  * Домашнє завдання 4
