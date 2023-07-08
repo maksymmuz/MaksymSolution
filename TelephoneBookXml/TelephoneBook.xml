@@ -1,4 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--Домашнє завдання 5
+Завдання 6
+Створіть .xml файл, який би відповідав наступним вимогам:
+• ім'я файлу: TelephoneBook.xml
+• кореневий елемент: “MyContacts”
+• тег “Contact”, і в ньому має бути записано ім'я контакту та атрибут “TelephoneNumber” зі значенням номера телефону.-->
+
 <Contacts>
 	<Contact TelephoneNumber="38(011)222-3344">Johnnie Walker</Contact>
 	<Contact TelephoneNumber="38(012)555-6677">Jim Beam</Contact>

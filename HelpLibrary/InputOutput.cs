@@ -44,5 +44,24 @@
 				return null;
 			}
 		}
+
+		public static void CreateFile(string fileName, string? directory = null)
+		{
+			directory ??= AppDomain.CurrentDomain.BaseDirectory;
+			string filePath = Path.Combine(directory, fileName);
+
+			if (!File.Exists(filePath))
+			{
+				try
+				{
+					File.Create(filePath).Close();
+					Console.WriteLine("File \"{0}\" was created in the \"{1}\" directory.", fileName, directory);
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine("Error occurred while creating the file: " + ex.Message);
+				}
+			}
+		}
 	}
 }
