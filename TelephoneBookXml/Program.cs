@@ -38,4 +38,29 @@ using (XmlReader reader = XmlReader.Create(@"TelephoneBook.xml", settings))
 				break;
 		}
 	}
+	Console.WriteLine();
+	Console.WriteLine(new string('*', 30));
+}
+
+/**
+ * Домашнє завдання 5
+ * Завдання 3
+ * З файлу TelephoneBook.xml виведіть на екран лише номери телефонів.
+ */
+
+try
+{
+	XmlDocument xmlDoc = new();
+	xmlDoc.Load(@"TelephoneBook.xml");
+
+	XmlNodeList contactNodes = xmlDoc.SelectNodes("//Contact");
+	foreach (XmlNode contactNode in contactNodes)
+	{
+		Console.WriteLine("The telephone number of mr. {0} is {1}",
+			contactNode.InnerText, contactNode.Attributes["TelephoneNumber"].Value);
+	}
+}
+catch (Exception ex)
+{
+	Console.WriteLine("Error occurred while reading the file: " + ex.Message);
 }

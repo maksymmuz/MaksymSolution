@@ -36,7 +36,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization", "Authorizat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_XML_JSON_Cofiguration", "5_XML_JSON_Cofiguration", "{6F975833-EAA6-41DC-BC43-4D3A13F1E491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneBookXml", "TelephoneBookXml\TelephoneBookXml.csproj", "{5B304BA8-A8C2-42DD-A8BC-04A2C75942CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelephoneBookXml", "TelephoneBookXml\TelephoneBookXml.csproj", "{5B304BA8-A8C2-42DD-A8BC-04A2C75942CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithConfigurations", "WorkWithConfigurations\WorkWithConfigurations.csproj", "{C5600F42-966B-4DBF-95EF-AF80EBE5D281}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -352,12 +354,33 @@ Global
 		{5B304BA8-A8C2-42DD-A8BC-04A2C75942CD}.Release|x64.Build.0 = Release|Any CPU
 		{5B304BA8-A8C2-42DD-A8BC-04A2C75942CD}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B304BA8-A8C2-42DD-A8BC-04A2C75942CD}.Release|x86.Build.0 = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|ARM.Build.0 = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|ARM64.Build.0 = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|x64.Build.0 = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5B304BA8-A8C2-42DD-A8BC-04A2C75942CD} = {6F975833-EAA6-41DC-BC43-4D3A13F1E491}
+		{C5600F42-966B-4DBF-95EF-AF80EBE5D281} = {6F975833-EAA6-41DC-BC43-4D3A13F1E491}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93D6518B-CB0A-465E-BD76-2F8C9CA1B019}
