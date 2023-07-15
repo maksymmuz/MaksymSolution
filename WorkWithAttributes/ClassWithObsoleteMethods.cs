@@ -1,7 +1,10 @@
 ﻿namespace WorkWithAttributes
 {
-	internal class ClassObsoleteMethods
+	internal class ClassWithObsoleteMethods
 	{
+		[Obsolete("This Property is obsolete.")]
+		public int MyProperty { get; set; }
+
 		[Obsolete("My custom message: This method is obsolete.")]
 		public int ObsoleteSum(int a, int b) => a + b;
 

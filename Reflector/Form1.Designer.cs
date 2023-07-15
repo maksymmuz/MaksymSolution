@@ -31,13 +31,11 @@
 			components = new System.ComponentModel.Container();
 			openFileDialog = new OpenFileDialog();
 			contextMenuStrip1 = new ContextMenuStrip(components);
-			filrToolStripMenuItem = new ToolStripMenuItem();
-			dfgToolStripMenuItem = new ToolStripMenuItem();
 			toolStripMenuItem1 = new ToolStripMenuItem();
-			menuStrip1 = new MenuStrip();
 			fileToolStripMenuItem = new ToolStripMenuItem();
 			openToolStripMenuItem = new ToolStripMenuItem();
-			toolStripMenuItem3 = new ToolStripMenuItem();
+			toolStripMenuItem2 = new ToolStripMenuItem();
+			menuStrip1 = new MenuStrip();
 			textBox = new TextBox();
 			contextMenuStrip1.SuspendLayout();
 			menuStrip1.SuspendLayout();
@@ -46,40 +44,18 @@
 			// contextMenuStrip1
 			// 
 			contextMenuStrip1.ImageScalingSize = new Size(20, 20);
-			contextMenuStrip1.Items.AddRange(new ToolStripItem[] { filrToolStripMenuItem, dfgToolStripMenuItem, toolStripMenuItem1 });
+			contextMenuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1 });
 			contextMenuStrip1.Name = "contextMenuStrip1";
-			contextMenuStrip1.Size = new Size(102, 76);
-			// 
-			// filrToolStripMenuItem
-			// 
-			filrToolStripMenuItem.Name = "filrToolStripMenuItem";
-			filrToolStripMenuItem.Size = new Size(101, 24);
-			filrToolStripMenuItem.Text = "filr";
-			// 
-			// dfgToolStripMenuItem
-			// 
-			dfgToolStripMenuItem.Name = "dfgToolStripMenuItem";
-			dfgToolStripMenuItem.Size = new Size(101, 24);
-			dfgToolStripMenuItem.Text = "dfg";
+			contextMenuStrip1.Size = new Size(70, 26);
 			// 
 			// toolStripMenuItem1
 			// 
 			toolStripMenuItem1.Name = "toolStripMenuItem1";
-			toolStripMenuItem1.Size = new Size(101, 24);
-			// 
-			// menuStrip1
-			// 
-			menuStrip1.ImageScalingSize = new Size(20, 20);
-			menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
-			menuStrip1.Location = new Point(0, 0);
-			menuStrip1.Name = "menuStrip1";
-			menuStrip1.Size = new Size(866, 28);
-			menuStrip1.TabIndex = 1;
-			menuStrip1.Text = "menuStrip1";
+			toolStripMenuItem1.Size = new Size(69, 22);
 			// 
 			// fileToolStripMenuItem
 			// 
-			fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, toolStripMenuItem3 });
+			fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, toolStripMenuItem2 });
 			fileToolStripMenuItem.Name = "fileToolStripMenuItem";
 			fileToolStripMenuItem.Size = new Size(46, 24);
 			fileToolStripMenuItem.Text = "File";
@@ -91,19 +67,29 @@
 			openToolStripMenuItem.Text = "Open";
 			openToolStripMenuItem.Click += OpenToolStripMenuItem_Click;
 			// 
-			// toolStripMenuItem3
+			// toolStripMenuItem2
 			// 
-			toolStripMenuItem3.Name = "toolStripMenuItem3";
-			toolStripMenuItem3.Size = new Size(128, 26);
-			toolStripMenuItem3.Text = "Close";
-			toolStripMenuItem3.Click += toolStripMenuItem3_Click;
+			toolStripMenuItem2.Name = "toolStripMenuItem2";
+			toolStripMenuItem2.Size = new Size(128, 26);
+			toolStripMenuItem2.Text = "Close";
+			toolStripMenuItem2.Click += toolStripMenuItem3_Click;
+			// 
+			// menuStrip1
+			// 
+			menuStrip1.ImageScalingSize = new Size(20, 20);
+			menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+			menuStrip1.Location = new Point(0, 0);
+			menuStrip1.Name = "menuStrip1";
+			menuStrip1.Size = new Size(866, 28);
+			menuStrip1.TabIndex = 1;
+			menuStrip1.Text = "menuStrip1";
 			// 
 			// textBox
 			// 
-			textBox.Location = new Point(12, 31);
+			textBox.Location = new Point(12, 77);
 			textBox.Multiline = true;
 			textBox.Name = "textBox";
-			textBox.Size = new Size(803, 589);
+			textBox.Size = new Size(803, 543);
 			textBox.TabIndex = 2;
 			// 
 			// Form1
@@ -125,13 +111,11 @@
 
 		#endregion
 		private ContextMenuStrip contextMenuStrip1;
-		private ToolStripMenuItem filrToolStripMenuItem;
-		private ToolStripMenuItem dfgToolStripMenuItem;
 		private ToolStripMenuItem toolStripMenuItem1;
 		private MenuStrip menuStrip1;
 		private ToolStripMenuItem fileToolStripMenuItem;
 		private ToolStripMenuItem openToolStripMenuItem;
-		private ToolStripMenuItem toolStripMenuItem3;
+		private ToolStripMenuItem toolStripMenuItem2;
 		private TextBox textBox;
 	}
 }
