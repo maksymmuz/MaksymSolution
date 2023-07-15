@@ -7,7 +7,7 @@
  * а потім у формі, що перешкоджає компіляції. Продемонструйте роботу атрибута з прикладу виклику даних методів.
  * */
 
-ClassObsoleteMethods obsoleteMethods = new();
+ClassWithObsoleteMethods obsoleteMethods = new();
 
 Console.WriteLine(obsoleteMethods.ObsoleteSum(2, 5));
 obsoleteMethods.ObsoletePrint();
