@@ -93,7 +93,7 @@
 			InfoTextBox.Multiline = true;
 			InfoTextBox.Name = "InfoTextBox";
 			InfoTextBox.ScrollBars = ScrollBars.Vertical;
-			InfoTextBox.Size = new Size(1829, 1347);
+			InfoTextBox.Size = new Size(1090, 700);
 			InfoTextBox.TabIndex = 2;
 			// 
 			// MethodsCheckBox
