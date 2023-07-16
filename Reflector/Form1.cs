@@ -50,8 +50,6 @@ namespace Reflector
 						}
 					}
 
-					textBox.Text += "Type:  " + type + Environment.NewLine;
-
 					var properties = type.GetProperties();
 					if (properties != null)
 					{
