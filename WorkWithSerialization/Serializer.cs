@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace WorkWithSerialization
 {
-	internal class SerializerDeserializer
+	internal class Serializer
 	{
 		public static void SerializePerson<T>(T person)
 		{
@@ -11,11 +11,9 @@ namespace WorkWithSerialization
 
 			var serializer = new XmlSerializer(typeof(T));
 
-			using (var writer = new StringWriter())
-			{
-				serializer.Serialize(writer, person);
-				InputOutput.WriteToFile(filePath, writer.ToString());
-			}
+			using var writer = new StringWriter();
+			serializer.Serialize(writer, person);
+			InputOutput.WriteToFile(filePath, writer.ToString());
 		}
 	}
 }

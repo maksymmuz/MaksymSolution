@@ -9,4 +9,4 @@
 
 Person person = new("Johnnie Walker", 30, "Manager");
 
-SerializerDeserializer.SerializePerson(person);
+Serializer.SerializePerson(person);
