@@ -68,7 +68,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9_GarbageCollector", "9_Gar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkWithGarbageCollector", "WorkWithGarbageCollector\WorkWithGarbageCollector.csproj", "{5E18A482-57CA-480F-B393-909777AE0924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargeObjectCleaningPattern", "LargeObjectCleaningPattern\LargeObjectCleaningPattern.csproj", "{5E74ACC1-F4FD-4F6B-A4AF-9AB46C1F1199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargeObjectCleaningPattern", "LargeObjectCleaningPattern\LargeObjectCleaningPattern.csproj", "{5E74ACC1-F4FD-4F6B-A4AF-9AB46C1F1199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_Versioning", "10_Versioning", "{7ED34B53-BF21-4702-BEDA-115F5D1F0339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -624,6 +628,26 @@ Global
 		{5E74ACC1-F4FD-4F6B-A4AF-9AB46C1F1199}.Release|x64.Build.0 = Release|Any CPU
 		{5E74ACC1-F4FD-4F6B-A4AF-9AB46C1F1199}.Release|x86.ActiveCfg = Release|Any CPU
 		{5E74ACC1-F4FD-4F6B-A4AF-9AB46C1F1199}.Release|x86.Build.0 = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|ARM.Build.0 = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|ARM.Build.0 = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|ARM64.Build.0 = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|x64.Build.0 = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -642,6 +666,7 @@ Global
 		{211C957C-469E-42FE-976C-66CC673D20CE} = {6524A18D-099C-4A95-9E2F-C4024D6F2F22}
 		{5E18A482-57CA-480F-B393-909777AE0924} = {2E3A3A0C-88B5-4AC1-B6E6-F5CBD20AA85A}
 		{5E74ACC1-F4FD-4F6B-A4AF-9AB46C1F1199} = {2E3A3A0C-88B5-4AC1-B6E6-F5CBD20AA85A}
+		{A9AAB37F-CFB8-406B-9E69-7B74BB9C17E1} = {7ED34B53-BF21-4702-BEDA-115F5D1F0339}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93D6518B-CB0A-465E-BD76-2F8C9CA1B019}
