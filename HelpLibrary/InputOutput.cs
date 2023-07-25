@@ -6,10 +6,8 @@
 		{
 			try
 			{
-				using (var writer = new StreamWriter(filePath, append: append))
-				{
-					writer.WriteLine(content);
-				}
+				using var writer = new StreamWriter(filePath, append: append);
+				writer.WriteLine(content);
 
 				Console.WriteLine("The text was successfully written to the file.");
 			}
