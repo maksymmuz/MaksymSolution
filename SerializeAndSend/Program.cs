@@ -2,7 +2,7 @@
 using System.IO.Compression;
 using System.Text;
 using System.Text.Json;
-/*
+/**
  * Домашнє завдання 8
  * Завдання 5 
  * Створіть тип користувача (наприклад, клас) і виконайте серіалізацію об'єкта цього типу,
