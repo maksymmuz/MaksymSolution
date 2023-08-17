@@ -1,0 +1,8 @@
+New file1 content!
+
+content of file 1
+content of file 1
+content of file 1 content of file 1
+content of file 1 content of file 1 content of file 1
+
+content of file 1content of file 1content of file 1content of file 1
