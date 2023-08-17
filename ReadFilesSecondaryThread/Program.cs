@@ -15,19 +15,11 @@ internal class Program
 
     private static void Main()
     {
-
-        // Create threads
         Thread thread1 = new Thread(ReadAndWriteToFile);
         Thread thread2 = new Thread(ReadAndWriteToFile);
 		
 		thread1.Start("file1.txt");
 		thread2.Start("file2.txt");
-
-		// waiting for the completion of both threads
-		thread1.Join();
-        thread2.Join();
-
-        Console.WriteLine("Operation is complete.");
     }
 
     private static void ReadAndWriteToFile(object filename)
@@ -43,8 +35,7 @@ internal class Program
                 content = InputOutput.ReadFromFile(inputFileName);
             }
 
-            //Thread.Sleep(100);
-
+            Thread.Sleep(50);
             lock (fileLock)
             {
                 InputOutput.WriteToFile(outputFileName, content, true);
@@ -57,5 +48,4 @@ internal class Program
             Console.WriteLine($"Error in the thread {Thread.CurrentThread.ManagedThreadId}: {ex.Message}");
         }
     }
-
 }
