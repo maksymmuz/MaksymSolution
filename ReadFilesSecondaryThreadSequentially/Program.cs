@@ -12,24 +12,20 @@ internal class Program
 
 	private static void Main()
 	{
-		for (int i = 0; i < 20; i++)
-		{
-			// Create threads
-			Thread thread1 = new Thread(ReadAndWriteToFile);
-			Thread thread2 = new Thread(ReadAndWriteToFile);
-			Thread thread3 = new Thread(ReadAndWriteToFile);
+		Thread thread1 = new Thread(ReadAndWriteToFile);
+		Thread thread2 = new Thread(ReadAndWriteToFile);
+		Thread thread3 = new Thread(ReadAndWriteToFile);
 
-			thread1.Start("file1.txt");
-			thread1.Join();
+		thread1.Start("file1.txt");
+		thread1.Join();
 
-			thread2.Start("file2.txt");
-			thread2.Join();
+		thread2.Start("file2.txt");
+		thread2.Join();
 
-			thread3.Start("file3.txt");
-			thread3.Join();
+		thread3.Start("file3.txt");
+		thread3.Join();
 
-			Console.WriteLine("Operation is complete.");
-		}
+		Console.WriteLine("Operation is complete.");
 	}
 
 	private static void ReadAndWriteToFile(object filename)
