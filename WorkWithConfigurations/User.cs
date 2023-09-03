@@ -5,7 +5,6 @@ namespace WorkWithConfigurations
 	internal class User
 	{
 		ConsoleConfigModel _consoleConfigModel;
-		IConfigurationRoot _configuration;
 
 		public User()
 		{
@@ -16,12 +15,12 @@ namespace WorkWithConfigurations
 		{
 			Console.WriteLine("Reading configuration data from JSON file.");
 
-			_configuration = new ConfigurationBuilder()
+			IConfigurationRoot configuration = new ConfigurationBuilder()
 				.SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
 				.AddJsonFile("config.json", optional: false, reloadOnChange: true)
 				.Build();
 
-			ConfigurationBinder.Bind(_configuration, _consoleConfigModel);
+			configuration.Bind(_consoleConfigModel);
 		}
 
 		void ConfigureConsole()

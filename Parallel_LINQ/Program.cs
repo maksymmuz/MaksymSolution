@@ -6,9 +6,9 @@
  * Створіть PLINQ запит, який дозволить отримати усі непарні числа з вихідного масиву
  */
 
-Random r = new Random();
+var r = new Random();
 
-int[] array = new int[1_000_000];
+var array = new int[1_000_000];
 
 Parallel.For(0, 1_000_000, (i) => array[i] = r.Next(0, 1_000_000));
 
